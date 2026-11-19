@@ -1,11 +1,12 @@
 {
-  "ai": {
-    "provider": "openai",
-    "model": "gpt-4",
-    "api_key_env": "OPENAI_API_KEY",
+"ai": {
+    "provider": "gemini",
+    "model": "gemini-3.8-flash",
+    "api_key_env": "GOOGLE_API_KEY",
+    "languages": ["zh"],
     "temperature": 0.3,
     "max_tokens": 4096,
-    "throttle_sec": 0,
+    "throttle_sec": 4,
     "analysis_concurrency": 1,
     "enrichment_concurrency": 1
   },
